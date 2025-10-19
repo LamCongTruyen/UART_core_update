@@ -27,7 +27,13 @@ Dạng sóng tại thời điểm dữ liệu thay đổi module TX:
 
 <img width="1056" height="600" alt="image" src="https://github.com/user-attachments/assets/47077b3e-9442-4236-89f0-1fd69fef1ad1" />
 
-Dạng sóng cho topmodule uart_string_loopback như sau : (tôi gửi lần lượt các giá trị 8bit : 'A','H','E','L','L','O')
+Dạng sóng cho topmodule uart_string_loopback như sau : 
+*tôi gửi lần lượt các giá trị 8bit : 
+'A':0100 0001
+'H':01001000
+'E':01100101
+x2'L':01101100
+'O':01101111
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/73b1b8cc-4abf-439d-9734-a9487ce1c7c0" />
 
