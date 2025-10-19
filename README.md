@@ -21,10 +21,10 @@ Dạng sóng tại thời điểm dữ liệu thay đổi module RX:
 
 TX:
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/3530497c-c8b1-4b5f-be30-c1ccbdcf1c1b" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3530497c-c8b1-4b5f-be30-c1ccbdcf1c1b" />
 
 Dạng sóng tại thời điểm dữ liệu thay đổi module TX: 
 
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/47077b3e-9442-4236-89f0-1fd69fef1ad1" />
+<img width="1056" height="600" alt="image" src="https://github.com/user-attachments/assets/47077b3e-9442-4236-89f0-1fd69fef1ad1" />
 
 
