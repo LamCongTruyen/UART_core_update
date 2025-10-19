@@ -1,4 +1,4 @@
-# IP_uart_in_fpga
+<img width="1920" height="1054" alt="image" src="https://github.com/user-attachments/assets/f848c28b-4b63-4b58-a18a-db98a1ae0928" /># IP_uart_in_fpga
 Xây dựng khối chức năng giao tiếp UART trên FPGA Altera Cyclone IV EP4CE6E22C8N hỗ trợ cho đồ án tốt nghiệp
 Khối giao tiếp UART trước đó tôi thực hiện với nguyên lý lấy mẫu đơn dựa theo BAUD_DIV. Mỗi bit UART được xử lý trong một khoảng thời gian cố định bằng BAUD_DIV chu kỳ clock.
 
@@ -35,6 +35,6 @@ Dạng sóng cho topmodule uart_string_loopback như sau :
 x2'L':01101100
 'O':01101111
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/73b1b8cc-4abf-439d-9734-a9487ce1c7c0" />
+<img width="1920" height="1054" alt="image" src="https://github.com/user-attachments/assets/2912c9da-647a-4e98-873b-864fc3383431" />
 
 So sánh dạng sóng với chương trình Verilog thì tôi thấy chương trình đang hoạt động chính xác theo máy trạng thái và tuân thủ chính xác theo khung dữ liệu của giao thức UART. Những chính xác này đặt nền móng cho hệ thống lớn sau này.
