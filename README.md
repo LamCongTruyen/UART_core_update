@@ -27,4 +27,4 @@ Dạng sóng tại thời điểm dữ liệu thay đổi module TX:
 
 <img width="1056" height="600" alt="image" src="https://github.com/user-attachments/assets/47077b3e-9442-4236-89f0-1fd69fef1ad1" />
 
-
+So sánh dạng sóng với chương trình Verilog thì tôi thấy chương trình đang hoạt động chính xác theo máy trạng thái và tuân thủ chính xác theo khung dữ liệu của giao thức UART. Những chính xác này đặt nền móng cho hệ thống lớn sau này.
