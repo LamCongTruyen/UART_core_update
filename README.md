@@ -10,3 +10,17 @@ Xilinx MicroBlaze MCS SoC Edition
 Pong P.Chu
 
 Tôi đã chỉnh sửa cách lấy mẫu, thay vì lấy mẫu đơn thì tôi thực hiện lấy mẫu 16x với TICK_DIV. Mỗi bit UART được duy trì trong 16tick mỗi tick kéo dài TICK_DIV chu kỳ clock. Khi đếm tick đếm 8 nghĩa là dữ liệu sẽ được chốt lưu vào trong buffer ở giữa xung của bit UART cũng là lúc tín hiệu của bit được ổn định nhất. Từ đó cải thiện độ chính xác ở tốc đô baud cao tăng hiệu suất cho hệ thống.
+
+Dạng sóng mô phỏng trên Modelsim cho hai module con "RX" và "TX" như sau:
+RX: 
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/c2d94499-10af-45ac-85e1-7763107b6b02" />
+
+TX:
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/3530497c-c8b1-4b5f-be30-c1ccbdcf1c1b" />
+
+Dạng sóng tại thời điểm dữ liệu thay đổi module TX: 
+
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/47077b3e-9442-4236-89f0-1fd69fef1ad1" />
+
+
